@@ -1,3 +1,14 @@
 body{
   text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-family: arial;
+}
+
+.jumbotron {
+  display: inline;
+}
+
+footer {
+  padding-top: 50px;
 }

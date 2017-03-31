@@ -1,7 +1,6 @@
 node_modules/
 .DS_store
 bower_components/
-build/
 tmp/
 .env
 a0eebc19b3e11bbc2f35086d5d8bf277/

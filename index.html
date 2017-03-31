@@ -4,34 +4,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="build/css/styles.css"> -->
+  <script src="build/js/vendor.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+
+  <!-- <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> -->
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
+  <!-- <script src="bower_components/bootstrap/dist/css/bootstrap.min.js"></script> -->
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+
   <title>GITHUB|WELCOME</title>
 </head>
 
 <body>
+
+  <!-- Start of Jumbotron -->
   <div class="jumbotron">
     <img src="img/git1.jpg" width="300" height="300">
     <h1>GIT USER FINDER</h1>
   </div>
+  <!-- End of Jumbotron -->
+
   <!-- start searchbar -->
   <div class="container">
-    <form id="finder">
+    <form id="finderUser">
       <div class="form-group">
-        <input type="search" placeholder="Find user...">
+        <input type="search" id="userName" placeholder="Find user...">
         <button class="btn-success" type="submit">Search</button>
       </div>
-      <!-- end searchbar -->
-      <footer>
-        <p>Steve Kiarie, Copyright &copy; 2017</p>
-        <a href="https://twitter.com/Iam_Kiarie"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
-        <a href="https://github.com/stvkre"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+    </form>
+    <!-- end searchbar -->
 
-      </footer>
+    <!--Show user-->
+    <div class="showUser">
+      <ol id="userPerson" class="list-unstyled">
+
+      </ol>
+    </div>
+    <!--End user-->
+    <!--Show Repos-->
+    <div id="showRepos">
+      <ol id="repoUrl" class="list-unstyled">
+
+      </ol>
+    </div>
+    <!--End Repos-->
+    <footer>
+      <p>Steve Kiarie, Copyright &copy; 2017</p>
+      <a href="https://twitter.com/Iam_Kiarie"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+      <a href="https://github.com/stvkre"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+
+    </footer>
 
 </body>
 
